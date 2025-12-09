@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TITULAÇÃO E LISTAS</title>
+</head>
+<body style="height: 2000px; background-color: black; color: #C1C1C1;">
+    <!--TITULAÇÃO É UTILIZADA PARA TÍTULOS E SUBTÍTULOS NAS PÁGINAS.
+        UTILIZAR A TAG <h></h> ACOMPANHADA DE UM NÚMERO DE 1 A 6.-->
+    <h1>TÍTULO PRINCIPAL</h1>
+    <h2>PRIMEIRO SUBTÍTULO RELACIONADO AO TÍTULO PRINCIPAL</h2>
+    <h3>SEGUNDO NÍVEL DE SUBTÍTULO</h3>
+    <h4>TERCEIRO NÍVEL DE SUBTÍTULO</h4>
+    <h5>QUARTO NÍVEL DE SUBTÍTULO</h5>
+    <h6>QUINTO NÍVEL DE SUBTÍTULO</h6>
+    <hr />
+    <h1>TIPOS DE LISTAS</h1>
+    <h2>LISTA NUMERADA (ORDENADA)</h2>
+    LISTA DE AFAZERES:<br />
+    <!--<ol></ol> PARA LISTA ORDENADA type MODIFICA O INDICADOR DE ORDEM-->
+        <!--type A/a PARA ALFABETO type 1 PARA NUMEROS type I/i PARA
+            NUMEROS ROMANO-->
+    <ol type="I">
+        <li>Arrumar a Cama</li>
+        <li>Escovar os Dentes</li>
+        <li>Tomar café</li>
+        <li>Escovar os Dentes</li>
+        <li>Fazer Tarefas Escolares</li>
+        <li>Almoçar</li>
+        <li>Escovar os Dentes</li>
+        <li>Tomar Banho</li>
+        <li>Ir para a ETEC</li>
+    </ol> <br />
+    <h2>LISTA DESORDENADA</h2>
+    LISTA DE COMPRAS: <br />
+    <!--<ul></ul> PARA LISTA DESORDENADA type MODIFICA O INDICADOR.
+        type disc PARA CIRCULO type square PARA QUADRADO type circle PARA
+        CIRCULO SEM PREENCHIMENTO-->
+    <ul type="disc">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Óleo</li>
+        <li>Café</li>
+        <li>Mistura</li>
+        <li>Iogurte</li>
+    </ul> <br />
+    <h2>LISTA CATÁLOGO OU GLOSSÁRIO</h2>
+    <!--dl PARA CRIAR A LISTA dt PARA O TÍTULO DO ITEM dd PARA A DESCRIÇÃO DO ITEM-->
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>Linguagem de marcação de texo. Usada para estruturar sites. (Front End)</dd>
+        <dt><b>CSS</b></dt>
+        <dd>Linguagem de estilo em cascata. Usada para formatar e estilizar sites. (Front End)</dd>
+        <dt><b>Javascript</b></dt>
+        <dd>Linguagem de programação para a parte lógica do site. Atua no lado do cliente/navegador. (Front End)</dd>
+        <dt><b>PHP</b></dt>
+        <dd>Linguagem de programação para a parte lógica do site. Atua no lado do servidor/hospedagem. (Back End)</dd>
+    </dl>
+    <hr />
+    <h1>TEXTO EM MOVIMENTO</h1>
+    <!--PARA O EFEITO DE MOVIMENTO, UTILIZAR A TAG marquee
+        PARA MUDAR A DIREÇÃO, ACRESCENTAR direction (up, down, left, right)
+        height É USADO PARA A ALTURA DA ÁREA DO MARQUEE
+        behaviour alternate PARA EFEITO BATE E VOLTA
+        behaviour slide PARA O TEXTO PARA QUANDO CHEGAR NO FINAL DA TELA
+        width PARA A ÁREA HORIZONTAL DO MARQUEE
+        scrolldelay E scrollamount PARA ALTERAR A VELOCIDADE-->
+    <marquee>Exemplo 1</marquee><br />
+    <marquee direction="right">Exemplo 2</marquee><br />
+    <marquee direction="up">Exemplo 3</marquee><br />
+    <marquee direction="down">Exemplo 4</marquee><br />
+    <marquee direction="up" height="200">Exemplo 5</marquee><br />
+    <marquee behavior="slide">Exemplo 6</marquee><br />
+    <marquee behavior="alternate">Exemplo 7</marquee><br />
+    <center><marquee behavior="alternate" width="600">EXEMPLO 8</marquee></center>
+    <marquee bgcolor="black"><font color="red">O PROXIMO TREM SE ENCONTRA ENTRE AS ESTAÇÕES DE PERUS E CAIEIRAS</font></marquee>
+    <marquee scrolldelay="1000" scrollamount="10">Exemplo 9</marquee>
+    <marquee behavior="alternate" direction="up" height="300"><marquee behavior="alternate" direction="left">Exemplo 10</marquee></marquee>
+    <hr />
+    <h1>ALINHAMENTO DE PARÁGRAFOS</h1> <br />
+    <h2>ALINHAMENTO À ESQUERDA</h2> <br />
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum asperiores ipsam, ad dicta ex et. Eos nesciunt quibusdam aliquid harum, officia, consectetur facere sit delectus nobis vitae assumenda voluptas dolores!<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius nihil, optio, velit nesciunt vel similique esse facilis ex dolorem quia omnis. Quisquam iure voluptate accusantium temporibus consectetur fugit nisi.<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae magni ab quod officia! Perferendis incidunt dolor dolores, magni quas minima delectus veritatis ipsum, corporis accusantium labore reiciendis quibusdam repellendus.<br />
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis explicabo non voluptas quasi ratione quidem hic, amet consequatur eligendi? Sed amet quos est quis provident asperiores inventore sit molestiae in.</p> <br />
+
+    <h2>ALINHAMENTO AO MEIO</h2> <br />
+
+    <p align="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum asperiores ipsam, ad dicta ex et. Eos nesciunt quibusdam aliquid harum, officia, consectetur facere sit delectus nobis vitae assumenda voluptas dolores!<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius nihil, optio, velit nesciunt vel similique esse facilis ex dolorem quia omnis. Quisquam iure voluptate accusantium temporibus consectetur fugit nisi.<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae magni ab quod officia! Perferendis incidunt dolor dolores, magni quas minima delectus veritatis ipsum, corporis accusantium labore reiciendis quibusdam repellendus.<br />
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis explicabo non voluptas quasi ratione quidem hic, amet consequatur eligendi? Sed amet quos est quis provident asperiores inventore sit molestiae in.</p> <br />
+    
+    <h2>ALINHAMENTO À DIREITA</h2> <br />
+
+    <p align="right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum asperiores ipsam, ad dicta ex et. Eos nesciunt quibusdam aliquid harum, officia, consectetur facere sit delectus nobis vitae assumenda voluptas dolores!<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius nihil, optio, velit nesciunt vel similique esse facilis ex dolorem quia omnis. Quisquam iure voluptate accusantium temporibus consectetur fugit nisi.<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae magni ab quod officia! Perferendis incidunt dolor dolores, magni quas minima delectus veritatis ipsum, corporis accusantium labore reiciendis quibusdam repellendus.<br />
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis explicabo non voluptas quasi ratione quidem hic, amet consequatur eligendi? Sed amet quos est quis provident asperiores inventore sit molestiae in.</p> <br />
+    
+    <h2>ALINHAMENTO JUSTIFICADO</h2> <br />
+
+    <p align="justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum asperiores ipsam, ad dicta ex et. Eos nesciunt quibusdam aliquid harum, officia, consectetur facere sit delectus nobis vitae assumenda voluptas dolores!<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius nihil, optio, velit nesciunt vel similique esse facilis ex dolorem quia omnis. Quisquam iure voluptate accusantium temporibus consectetur fugit nisi.<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae magni ab quod officia! Perferendis incidunt dolor dolores, magni quas minima delectus veritatis ipsum, corporis accusantium labore reiciendis quibusdam repellendus.<br />
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis explicabo non voluptas quasi ratione quidem hic, amet consequatur eligendi? Sed amet quos est quis provident asperiores inventore sit molestiae in.</p>
+
+    <img src="./sun.png" alt="Hawaian Sun Tatoo Image" width="400" border="5px"/>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

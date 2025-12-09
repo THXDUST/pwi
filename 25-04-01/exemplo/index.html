@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFRAMES</title>
+</head>
+<body>
+    <center>
+        <!--
+            iframe é um espaço na página para mostrar outras paginas.
+            Usar tag <iframe>
+            Parâmetros:
+            - src, qual página vai ser exibida
+            - height, define altura, em pixel
+            - width, define largura, de preferencia em porcentagem
+            - name, nome do iframe para referenciar na tag <a> no parametro target
+            - frameborder, define o tamanho da borda do iframe, 0 para esconder
+            - scrolling, mostra a barra de rolagem ou não
+        -->
+        <a href="pagina1.html" target="iframe">Página 1</a>
+        <a href="pagina2.html" target="iframe">Página 2</a>
+        <a href="pagina3.html" target="iframe">Página 3</a>
+        <a href="pagina4.html" target="iframe">Página 4</a>
+    
+        <br />
+
+        <iframe src="pagina1.html" frameborder="no" width="90%" height="600" id="iframe" name="iframe"></iframe>
+    </center>
+</body>
+</html>

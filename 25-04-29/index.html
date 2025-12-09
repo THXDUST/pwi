@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EXEMPLO2</title>
+	<body>
+	<!--DECLARAR A ÁREA DO FORMULÁRIO COM A TAG <form></form>-->
+	<!--DAR UM NOME COM O PARAMETRO name=""-->
+	<!--IDENTIFICAR COM O PARAMETRO id=""-->
+	<!--OBS. O id GERALMENTE É IGUAL AO name-->
+	<!--CONFIGURAR A FORMA DE ENVIO COM O PARAMETRO method=""-->
+	<!--OBS.PODE SER get (NÃO PROTEGIDA) OU post (PROTEGIDA)-->
+	<!--DAR UM DESTINO COM O PARAMETRO action=""-->
+	<!--OBS. PROGRAMA ASPNET OU PHP-->
+	<h1>FORMULÁRIO DE CADASTRO</h1>
+	<form name="meuform" id="meuform" method="get" action="<!--NOME DO PROGRAMA-->">
+		<!--TUDO O QUE VOCÊ PREENCHE É UM input-->
+		<!--SE FOR OBRIGATÓRIO PREENCHER, USAR required-->
+		<!--PARA DA DICAS, USAR placeholder-->	
+		<label for="txtnome">Nome:</label> 
+		<input type="text" name="txtnome" id="txtnome" required placeholder="Nome completo"><br/>
+		<label for="txtnascimento">Nascimento:</label>
+		<input type="date"><br/>
+		<label for="txtemail">E-mail:</label> 
+		<input type="text" name="txtemail" id="txtemail" required placeholder="Informe um e-mail válido"><br/>
+		<!--PARA SENHA O TIPO DO INPUT É password-->
+		<label for="txtsenha">Senha:</label> 
+		<input type="password" name="txtsenha" id="txtsenha" required placeholder="Mínimo 6 caracteres"><br/>
+		<label for="txtconfirme">Confirme:</label> 
+		<input type="password" name="txtconfirme" id="txtconfirme" required placeholder="Deve ser igual a senha"><br/>
+		Enviar foto:<br/>
+ 		<input type="file" name="arquivo"/><br/>
+		
+		<!--submit É UM BOTÃO QUE ENVIA AS INFORMAÇÕES PARA O PROGRAMA
+			QUE VOCÊ DECLAROU EM action-->
+		<!--value É O TEXTO QUE VAI APARECER NO SEU BOTÃO-->	
+		<input type="submit" value="Cadastrar" id="btCadastra" name="btCadastra">
+		<!--reset É UM BOTÃO QUE LIMPA OS DADOS PREENCHIDOS-->
+		<input type="reset" value="Limpar" id="btLimpa" name="btLimpa">
+	</form>
+</body>
+</html>

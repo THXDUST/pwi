@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>FORMULÁRIO DE CADASTRO</h1>
+    <form action="">
+        <label for="nome">Nome:</label> <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui"> <br />
+        <label for="sobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome aqui"> <br />
+        <label for="estadocivil">Estado civil:</label> <select name="estadocivil" id="estadocivil"><option value="casado">Casado</option><option value="solteiro">Solteiro</option><option value="viuvo">Viúvo</option></select> <br />
+        <label for="senha">Senha:</label> <input type="password" name="senha" id="senha" placeholder="Utilize letras e números"> <br />
+        <br />
+        <label for="genero">Sexo:</label> <br />
+        <input type="radio" name="genero" id="masc"> Masculino <br />
+        <input type="radio" name="genero" id="fem"> Feminino <br />
+        <input type="radio" name="genero" id="outro"> Outro <br />
+        <br />
+        <label for="linguagens">Marque as opções de seu interesse:</label> <br />
+        <input type="checkbox" name="linguagens" id="aspnet"> ASP.NET <br />
+        <input type="checkbox" name="linguagens" id="js"> JavaScript <br />
+        <input type="checkbox" name="linguagens" id="php"> PHP <br />
+        <input type="checkbox" name="linguagens" id="py"> Python <br />
+        <br />
+        <label for="comentarios">Entre com seus comentários na caixa a seguir:</label> <br />
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea> <br />
+        <label for="tecs">Selecione as tecnologias que deseja aprender: (Segure a tecla CTRL para selecionar mais de uma tecnologia)</label><br />
+        <select name="tecs" id="tecs" multiple><option value="aspnet">ASP.NET</option><option value="c">Linguagem C</option><option value="cpp">C++</option><option value="java">Java</option></select> <br />
+		<input type="submit" value="Cadastrar" id="btCadastra" name="btCadastra">
+		<input type="reset" value="Limpar" id="btLimpa" name="btLimpa">
+    </form>
+</body>
+</html>
